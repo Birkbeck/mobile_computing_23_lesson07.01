@@ -17,4 +17,11 @@
 
 package com.example.mobilecomputing_23_lesson0701.network
 
-class MarsProperty()
+import com.squareup.moshi.Json
+
+data class MarsProperty(
+    val id: String,
+    @Json(name = "img_src") val imgSrcUrl: String,
+    val type: String,
+    val price: Double
+)
