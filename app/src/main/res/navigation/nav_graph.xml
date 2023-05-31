@@ -38,6 +38,10 @@
         android:name="com.example.mobilecomputing_23_lesson0701.detail.DetailFragment"
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="selectedProperty"
+            app:argType="com.example.mobilecomputing_23_lesson0701.network.MarsProperty"
+            />
     </fragment>
 
 </navigation>
